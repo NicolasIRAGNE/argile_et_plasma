@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
 	public int Ammo;
 	public float ReloadTime;
 	public Sprite WorldModel;
+	public Sprite ViewModel;
 	
 	
 	// Use this for initialization
@@ -19,6 +20,11 @@ public class Weapon : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		
+	}
+
+	public void Fire()
+	{
 		
 	}
 }
