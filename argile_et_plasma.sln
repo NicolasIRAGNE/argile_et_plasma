@@ -1,14 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "argile_et_plasma", "Assembly-CSharp.csproj", "{08C8DFB0-65EA-F13E-1464-7929C04CECCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{08C8DFB0-65EA-F13E-1464-7929C04CECCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C8DFB0-65EA-F13E-1464-7929C04CECCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C8DFB0-65EA-F13E-1464-7929C04CECCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C8DFB0-65EA-F13E-1464-7929C04CECCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
