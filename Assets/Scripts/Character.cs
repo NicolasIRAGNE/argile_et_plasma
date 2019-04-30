@@ -57,10 +57,7 @@ public class Character : MonoBehaviour
 		{
 			Aim();
 		}
-		if (Health <= 0)
-		{
-			Destroy(gameObject);
-		}
+		
 	}
 
 	public void Reload()
@@ -81,5 +78,14 @@ public class Character : MonoBehaviour
 		transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 		EquippedWeapon.Target = ShootTarget;
 		EquippedWeapon.Fire();
+	}
+
+	public void Damage()
+	{
+		
+		if (Health <= 0)
+		{
+			Destroy(gameObject);
+		}
 	}
 }
