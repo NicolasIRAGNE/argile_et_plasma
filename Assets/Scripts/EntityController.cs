@@ -22,12 +22,11 @@ public class EntityController : MonoBehaviour
 
 			if (hit.collider != null && Selected == null)
 			{
-				Debug.Log("clicked on " + hit.collider.gameObject);
 				Selected = hit.collider.gameObject.GetComponent<Character>();
 			}
 			else if (Selected != null)
 			{
-				Selected.Target = mousePos2D;
+				Selected.MoveTarget = mousePos2D;
 				Selected = null;
 			}
 		}
